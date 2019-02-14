@@ -30,7 +30,8 @@ class JavamugController {
 
 	@RequestMapping(method = GET, path = "/")
 	public String root() {
-		return "Spring Boot REST service running in Legacy Park on Wednesday" + getClass().getName();
+		return "Spring Boot REST service running in Legacy Park on Wednesday"
+				+ getClass().getName();
 	}
 
 	@RequestMapping(method = GET, path = "hello/{name}")
