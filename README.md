@@ -1,5 +1,5 @@
 # javamug
-my new project
+Hurray!
 
 Based on seed project `satellite-of-love:spring-rest-seed`
 
